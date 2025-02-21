@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap');
+
+.backgroundHome {
+    text-align: center;
+    background-image: url(../../assets/banner-home-page.jpg);
+    background-color: #c4bccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.containHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.buttonHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 18rem;
+    height: 3rem;
+    margin: 0.3rem;
+    border: solid 0.1rem #fff;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+.buttonHome:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.iconHome {
+    color: #000;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    width: 1.4rem;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
