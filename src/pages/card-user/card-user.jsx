@@ -66,8 +66,8 @@ export default function CardUser() {
           <img
             src={
               userData.message[0].image
-                ? `http://localhost:1110/imagesuser/${userData.message[0].image}`
-                : "http://localhost:1110/imagesuser/nouserimage.png"
+                ? `https://logintpage-react-api-production.up.railway.app/imagesuser/${userData.message[0].image}`
+                : "https://logintpage-react-api-production.up.railway.app/imagesuser/nouserimage.png"
             }
             alt={userData.message[0].name}
             className={styles.profileImage}

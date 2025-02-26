@@ -241,7 +241,7 @@ export default function CreateAccount() {
                   src={
                     previewImage
                       ? `${previewImage}`
-                      : "http://localhost:1110/imagesuser/nouserimage.png"
+                      : "https://logintpage-react-api-production.up.railway.app/imagesuser/nouserimage.png"
                   }
                   className={styles.showImage}
                 />
