@@ -46,7 +46,7 @@ export default function CardUser() {
     handleDeleteUser(false);
     Loading(true);
     try {
-      const response = await fetch(`http://localhost:${PORT}/user/${id}`, {
+      const response = await fetch(`https://logintpage-react-api-production.up.railway.app/user/${id}`, {
         method: "DELETE",
       });
       if (response.status) {

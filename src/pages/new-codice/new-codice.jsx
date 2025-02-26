@@ -26,7 +26,7 @@ export default function NewCodice() {
 
     try {
       const response = await fetch(
-        "http://localhost:1110/userchangepassword-newcodice",
+        "https://logintpage-react-api-production.up.railway.app/userchangepassword-newcodice",
         {
           method: "POST",
           headers: {

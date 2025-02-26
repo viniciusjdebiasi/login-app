@@ -43,7 +43,7 @@ export default function ValidCode() {
     const payload = { emailUser: userEmail, codeUser: cod };
 
     try {
-      const response = await fetch("http://localhost:1110/verifycode", {
+      const response = await fetch("https://logintpage-react-api-production.up.railway.app/verifycode", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

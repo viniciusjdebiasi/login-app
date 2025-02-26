@@ -59,7 +59,7 @@ export default function NewPassword() {
       const payload = { emailUser: userEmail, newpassword: password };
 
       try {
-        const response = await fetch("http://localhost:1110/newpassword", {
+        const response = await fetch("https://logintpage-react-api-production.up.railway.app/newpassword", {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",

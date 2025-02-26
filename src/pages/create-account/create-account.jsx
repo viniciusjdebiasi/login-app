@@ -82,7 +82,7 @@ export default function CreateAccount() {
       formData.append("image", image);
 
       try {
-        const response = await fetch("http://localhost:1110/user", {
+        const response = await fetch("https://logintpage-react-api-production.up.railway.app/user", {
           method: "POST",
           body: formData,
         });
